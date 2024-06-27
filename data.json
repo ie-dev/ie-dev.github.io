@@ -2,11 +2,12 @@
   "title": "IE-Dev Start Page",
   "description": "Ian Everall - Home screen with quick links",
   "images": [
-    {"file": "ellie_eating_her_tail_otgs7c", "alt": "Ellie eating her tail", "position":  "center center"},
-    {"file": "ian_and_aleisha_ns7fdq", "alt": "Me and the wife", "position":  "center center"},
-    {"file": "ellie_vnyvbg", "alt": "My Dog", "position":  "center center"},
-    {"file": "ian_and_aleisha2_huxf28", "alt": "Me and the wife", "position":  "center center"},
-    {"file": "our_wedding_day_wlmzjm", "alt": "Our Wedding Day", "position":  "center center"}
+    {"file": "ellie_with_her_frisbee_y3oycp", "alt": "Ellie with her frisbee", "position": "center center"},
+    {"file": "ian_and_aleisha_ns7fdq", "alt": "Me and the wife", "position": "center center"},
+    {"file": "ellie_eating_her_tail_otgs7c", "alt": "Ellie eating her tail", "position": "center center"},
+    {"file": "ian_and_aleisha2_huxf28", "alt": "Me and the wife", "position": "center center"},
+    {"file": "ellie_vnyvbg", "alt": "My Dog", "position": "center center"},
+    {"file": "our_wedding_day_wlmzjm", "alt": "Our Wedding Day", "position": "center center"}
   ],
   "sections": [
     {
@@ -57,6 +58,8 @@
       "title": "Docs & Tools",
       "links": [
         {"name": "DevDocs", "url": "https://devdocs.io/"},
+        {"name": "Kinesis A360 Keymap Editor", "url": "https://kinesiscorporation.github.io/Adv360-Pro-GUI/"},
+        {"name": "TypingClub", "url": "https://www.typingclub.com/"},
         {"name": "Monkeytype", "url": "https://monkeytype.com/"}
       ]
     },
