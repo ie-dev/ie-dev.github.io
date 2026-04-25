@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ian Everall's Start Page</title>
+        <link rel="preload" as="style" href="http://dashi.test/build/assets/site-CTkz95PQ.css" /><link rel="modulepreload" as="script" href="http://dashi.test/build/assets/site-D5-kE5uw.js" /><link rel="stylesheet" href="http://dashi.test/build/assets/site-CTkz95PQ.css" /><script type="module" src="http://dashi.test/build/assets/site-D5-kE5uw.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Silkscreen:wght@400&display=swap" rel="stylesheet">
+    </head>
+    <body class="font-sans leading-normal text-neutral-800 bg-gradient-to-r from-violet-400 to-violet-950"
+      style="background-color:#946dd0;"
+>
+    <div class="min-h-screen grid grid-cols-1 md:grid-cols-2 gap-4 md:pl-4">
+
+        <div class="md:mx-auto px-2 lg:min-h-screen flex flex-col items-center justify-center gap-4">
+
+            <header
+                x-data="timeBasedGreeting()"
+                x-init="updateGreeting()"
+            >
+                <h1 class="hidden">IE-Dev Start Page</h1>
+                <h2 class="font-serif text-4xl font-bold text-neutral-200 mb-4" x-text="greeting">Evening</h2>
+            </header>
+
+            <main class="w-full md:columns-3 gap-4">
+                
+                <div class="break-inside-avoid-column border-4 border-black bg-white shadow-[6px_6px_0_0] mb-4 p-2">
+                    <h2 class="font-bold mb-2">Favourite Links</h2>
+                    <div class="flex flex-col gap-1">
+                        
+                            
+                                <a href="https://www.youtube.com/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">YouTube</a>
+                            
+                                <a href="https://www.reddit.com/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Reddit</a>
+                            
+                                <a href="https://www.amazon.co.uk/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Amazon</a>
+                            
+                                <a href="https://rewards.bing.com/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Microsoft Rewards</a>
+                            
+                                <a href="https://www.humblebundle.com/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Humble Bundle</a>
+                            
+                        
+                    </div>
+                </div>
+                
+                <div class="break-inside-avoid-column border-4 border-black bg-white shadow-[6px_6px_0_0] mb-4 p-2">
+                    <h2 class="font-bold mb-2">Email</h2>
+                    <div class="flex flex-col gap-1">
+                        
+                            
+                                <a href="https://mail.google.com/mail/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Gmail</a>
+                            
+                                <a href="https://outlook.live.com/mail/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Outlook</a>
+                            
+                        
+                    </div>
+                </div>
+                
+                <div class="break-inside-avoid-column border-4 border-black bg-white shadow-[6px_6px_0_0] mb-4 p-2">
+                    <h2 class="font-bold mb-2">News & Content</h2>
+                    <div class="flex flex-col gap-1">
+                        
+                            
+                                <a href="https://www.floatplane.com/channel/linustechtips/home" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Floatplane</a>
+                            
+                                <a href="https://theverge.com/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">The Verge</a>
+                            
+                                <a href="https://thelinuxcast.org/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">The Linux Cast</a>
+                            
+                        
+                    </div>
+                </div>
+                
+                <div class="break-inside-avoid-column border-4 border-black bg-white shadow-[6px_6px_0_0] mb-4 p-2">
+                    <h2 class="font-bold mb-2">Darts</h2>
+                    <div class="flex flex-col gap-1">
+                        
+                            
+                                <a href="https://play.autodart.io" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Autodarts</a>
+                            
+                                <a href="https://autodarts.ai-ho.me" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Board Manager</a>
+                            
+                                <a href="https://wled.ai-ho.me" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">WLED</a>
+                            
+                        
+                    </div>
+                </div>
+                
+                <div class="break-inside-avoid-column border-4 border-black bg-white shadow-[6px_6px_0_0] mb-4 p-2">
+                    <h2 class="font-bold mb-2">Home Automation</h2>
+                    <div class="flex flex-col gap-1">
+                        
+                            
+                                <a href="https://homeassistant.ai-ho.me/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Home Assistant</a>
+                            
+                                <a href="https://zigbee2mqtt.ai-ho.me/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Zigbee2MQTT</a>
+                            
+                                <a href="https://esphome.ai-ho.me/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">ESPHome</a>
+                            
+                                <a href="https://node-red.ai-ho.me/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Node-RED</a>
+                            
+                        
+                    </div>
+                </div>
+                
+                <div class="break-inside-avoid-column border-4 border-black bg-white shadow-[6px_6px_0_0] mb-4 p-2">
+                    <h2 class="font-bold mb-2">Homelab</h2>
+                    <div class="flex flex-col gap-1">
+                        
+                            
+                                <a href="https://proxmox.ai-ho.me/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Proxmox</a>
+                            
+                                <a href="https://portainer.ai-ho.me/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Portainer</a>
+                            
+                                <a href="https://uptime.ai-ho.me/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Uptime</a>
+                            
+                        
+                    </div>
+                </div>
+                
+                <div class="break-inside-avoid-column border-4 border-black bg-white shadow-[6px_6px_0_0] mb-4 p-2">
+                    <h2 class="font-bold mb-2">Docs & Tools</h2>
+                    <div class="flex flex-col gap-1">
+                        
+                            
+                                <a href="https://devdocs.io/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">DevDocs</a>
+                            
+                                <a href="https://kinesiscorporation.github.io/Adv360-Pro-GUI/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Kinesis A360 Keymap Editor</a>
+                            
+                                <a href="https://www.typingclub.com/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">TypingClub</a>
+                            
+                                <a href="https://monkeytype.com/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Monkeytype</a>
+                            
+                        
+                    </div>
+                </div>
+                
+                <div class="break-inside-avoid-column border-4 border-black bg-white shadow-[6px_6px_0_0] mb-4 p-2">
+                    <h2 class="font-bold mb-2">Hosting & Repos</h2>
+                    <div class="flex flex-col gap-1">
+                        
+                            
+                                <a href="https://github.com/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">GitHub</a>
+                            
+                                <a href="https://bitbucket.org/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Bitbucket</a>
+                            
+                                <a href="https://hub.docker.com/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Docker Hub</a>
+                            
+                                <a href="https://dash.cloudflare.com/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Cloudflare</a>
+                            
+                                <a href="https://eu-west-2.console.aws.amazon.com/console/home?nc2=h_ct&region=eu-west-2" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">AWS</a>
+                            
+                                <a href="https://cloud.linode.com/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Linode</a>
+                            
+                                <a href="https://spinupwp.app/dashboard" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">SpinupWP</a>
+                            
+                        
+                    </div>
+                </div>
+                
+                <div class="break-inside-avoid-column border-4 border-black bg-white shadow-[6px_6px_0_0] mb-4 p-2">
+                    <h2 class="font-bold mb-2">Development</h2>
+                    <div class="flex flex-col gap-1">
+                        
+                            
+                                <a href="https://app.bugsnag.com/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">SmartBear Insight Hub</a>
+                            
+                                <a href="http://localhost:8025/#" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Mailpit</a>
+                            
+                                <a href="http://localhost:7700/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">MeiliSearch</a>
+                            
+                        
+                    </div>
+                </div>
+                
+                <div class="break-inside-avoid-column border-4 border-black bg-white shadow-[6px_6px_0_0] mb-4 p-2">
+                    <h2 class="font-bold mb-2">Social</h2>
+                    <div class="flex flex-col gap-1">
+                        
+                            
+                                <a href="https://bsky.app/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Bluesky</a>
+                            
+                                <a href="https://mastodonapp.uk/" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Mastodon</a>
+                            
+                                <a href="https://twitter.com/home" class="bg-neutral-400 px-6 py-4 md:px-0 md:py-0 md:bg-transparent rounded-md md:underline md:text-sm">Twitter</a>
+                            
+                        
+                    </div>
+                </div>
+                
+            </main>
+
+            <footer class="flex justify-between w-full gap-4 text-neutral-200 items-center">
+                
+                <aside class="flex items-center text-sm gap-2 text-neutral-200 py-2">
+                    <p>Quick Links:</p>
+                    
+                    <a href="https://unifi.ai-ho.me/" class="text-xs hover:text-violet-950">Unifi</a>
+                    
+                    <a href="https://fast.com/" class="text-xs hover:text-violet-950">fast.com</a>
+                    
+                </aside>
+                
+                <div class="flex gap-4 items-center justify-center">
+                    <p><span class="text-sm">©</span> Ian Everall 2026 - Powered by <a href="https://statamic.com" class="hover:text-violet-950">Statamic</a></p>
+                </div>
+            </footer>
+        </div>
+
+        <div class="hidden md:block max-h-screen no-scrollbar overflow-y-scroll">
+            <div class="md:columns-3 3xl:columns-4 4xl:columns-5 5xl:columns-6 gap-2 -mb-20">
+                
+                    
+                        
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ellie_eating_her_tail_otgs7c.jpg/e7f7984a9e826b45cda945e755d68f55/ellie_eating_her_tail_otgs7c.webp"
+                                        alt="Ellie eating her tail"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ellie_vnyvbg.jpg/a84da3516df1fa07959d06d3e1c32ef5/ellie_vnyvbg.webp"
+                                        alt="Ellie"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ellie_with_her_frisbee_y3oycp.jpg/2ebeefe360d22bdbde860ea734c0cc01/ellie_with_her_frisbee_y3oycp.webp"
+                                        alt="Ellie with her frisbee"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ian_and_aleisha_ns7fdq.jpg/34bc87b0f0d4ebb48351e55c0f7045ef/ian_and_aleisha_ns7fdq.webp"
+                                        alt="Ian and Aleisha"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ian_and_aleisha2_huxf28.jpg/f389ee60437521df3e88247d5b57f198/ian_and_aleisha2_huxf28.webp"
+                                        alt="Ian and Aleisha"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/our_wedding_day_wlmzjm.jpg/3b8e97dd33e37e6f664be71b7c5e1672/our_wedding_day_wlmzjm.webp"
+                                        alt="Ian and Aleisha"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                        
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ellie_eating_her_tail_otgs7c.jpg/e7f7984a9e826b45cda945e755d68f55/ellie_eating_her_tail_otgs7c.webp"
+                                        alt="Ellie eating her tail"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ellie_vnyvbg.jpg/a84da3516df1fa07959d06d3e1c32ef5/ellie_vnyvbg.webp"
+                                        alt="Ellie"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ellie_with_her_frisbee_y3oycp.jpg/2ebeefe360d22bdbde860ea734c0cc01/ellie_with_her_frisbee_y3oycp.webp"
+                                        alt="Ellie with her frisbee"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ian_and_aleisha_ns7fdq.jpg/34bc87b0f0d4ebb48351e55c0f7045ef/ian_and_aleisha_ns7fdq.webp"
+                                        alt="Ian and Aleisha"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ian_and_aleisha2_huxf28.jpg/f389ee60437521df3e88247d5b57f198/ian_and_aleisha2_huxf28.webp"
+                                        alt="Ian and Aleisha"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/our_wedding_day_wlmzjm.jpg/3b8e97dd33e37e6f664be71b7c5e1672/our_wedding_day_wlmzjm.webp"
+                                        alt="Ian and Aleisha"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                        
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ellie_eating_her_tail_otgs7c.jpg/e7f7984a9e826b45cda945e755d68f55/ellie_eating_her_tail_otgs7c.webp"
+                                        alt="Ellie eating her tail"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ellie_vnyvbg.jpg/a84da3516df1fa07959d06d3e1c32ef5/ellie_vnyvbg.webp"
+                                        alt="Ellie"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ellie_with_her_frisbee_y3oycp.jpg/2ebeefe360d22bdbde860ea734c0cc01/ellie_with_her_frisbee_y3oycp.webp"
+                                        alt="Ellie with her frisbee"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ian_and_aleisha_ns7fdq.jpg/34bc87b0f0d4ebb48351e55c0f7045ef/ian_and_aleisha_ns7fdq.webp"
+                                        alt="Ian and Aleisha"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ian_and_aleisha2_huxf28.jpg/f389ee60437521df3e88247d5b57f198/ian_and_aleisha2_huxf28.webp"
+                                        alt="Ian and Aleisha"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/our_wedding_day_wlmzjm.jpg/3b8e97dd33e37e6f664be71b7c5e1672/our_wedding_day_wlmzjm.webp"
+                                        alt="Ian and Aleisha"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                        
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ellie_eating_her_tail_otgs7c.jpg/e7f7984a9e826b45cda945e755d68f55/ellie_eating_her_tail_otgs7c.webp"
+                                        alt="Ellie eating her tail"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ellie_vnyvbg.jpg/a84da3516df1fa07959d06d3e1c32ef5/ellie_vnyvbg.webp"
+                                        alt="Ellie"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ellie_with_her_frisbee_y3oycp.jpg/2ebeefe360d22bdbde860ea734c0cc01/ellie_with_her_frisbee_y3oycp.webp"
+                                        alt="Ellie with her frisbee"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ian_and_aleisha_ns7fdq.jpg/34bc87b0f0d4ebb48351e55c0f7045ef/ian_and_aleisha_ns7fdq.webp"
+                                        alt="Ian and Aleisha"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/ian_and_aleisha2_huxf28.jpg/f389ee60437521df3e88247d5b57f198/ian_and_aleisha2_huxf28.webp"
+                                        alt="Ian and Aleisha"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                                
+                                    <img
+                                        src="/img/containers/assets/our_wedding_day_wlmzjm.jpg/3b8e97dd33e37e6f664be71b7c5e1672/our_wedding_day_wlmzjm.webp"
+                                        alt="Ian and Aleisha"
+                                        class="mb-2"
+                                    >
+                                
+                            
+                        
+                    
+                
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function timeBasedGreeting() {
+            return {
+                greeting: "",
+                updateGreeting() {
+                    const currentHour = new Date().getHours();
+
+                    if (currentHour >= 5 && currentHour < 12) {
+                        this.greeting = "Good Morning";
+                    } else if (currentHour >= 12 && currentHour < 17) {
+                        this.greeting = "Good Afternoon";
+                    } else if (currentHour >= 17 && currentHour < 21) {
+                        this.greeting = "Good Evening";
+                    } else {
+                        this.greeting = "Good Night";
+                    }
+                },
+            };
+        }
+    </script>
+</body>
+
+</html>
